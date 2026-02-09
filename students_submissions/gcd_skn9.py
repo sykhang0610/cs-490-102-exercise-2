@@ -16,7 +16,6 @@ def gcd(a: int, b: int) -> int:
     # Recursive step
     return gcd(b, a % b)
 
-
 if __name__ == "__main__":
     print(gcd(0, 0))        # None
     print(gcd(-54, 24))     # 6
